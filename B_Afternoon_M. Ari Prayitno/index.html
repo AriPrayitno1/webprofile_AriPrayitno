@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9961eccd7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>Frontend Web Developer</p>
+                    <h1>Hi, I'm <span>Ari</span></h1>
+                    <h1>From <span>Indonesia</span></h1>
+                </div>
+
+                <div class="header-img">
+                    <img src="images/myphoto.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------ABOUT------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <div class="about-desc">
+                <p>As a 5th semester Information System student with
+                    skills in the field of Web Development, i have often
+                    been trusted as developer for various web
+                    development projects as a course project that i took.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------SKILLS------------------------------------>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <h3>Figma</h3>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Web Development</h2>
+                    <h3>HTML</h3>
+                    <h3>CSS</h3>
+                    <h3>JavaScript</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------EXPERIENCE-------------------------------------------->
+
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="experience-list">
+                <div class="experience">
+                    <img src="images/kost.png">
+                    <div class="layer">
+                        <h3>KostNet</h3>
+                        <p class="role">(UI/UX Designer & Frontend Developer)</p>
+                        <p>KostNet is a website platform to find boarding house in Indonesia.</p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <img src="images/boba.jpeg">
+                    <div class="layer">
+                        <h3>H2O Boba</h3>
+                        <p class="role">(Frontend Developer)</p>
+                        <p>H2O Boba is a catalog website for UMKM who sell Milk Tea & Boba Drink</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------CONTACT---------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>m.ariprayitno29@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>082279982392</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/m.ari_prayitno/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/AriPrayitno1" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-registered"></i> M. Ari Prayitno</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
